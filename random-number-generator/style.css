@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myButton{
+    font-size: 2em;
+    background-color: rgb(107, 184, 217);
+    transition: background-color 0.25;
+    color: white;
+    padding: 10px
+}
+
+#myButton:hover{
+    background-color: rgb(77, 115, 132);
+}
+
+#roll{
+    font-size: 3em;
+}

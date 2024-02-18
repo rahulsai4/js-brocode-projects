@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+    color:whitesmoke;
+}
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#input{
+    display: flex;
+    justify-content: center;
+}

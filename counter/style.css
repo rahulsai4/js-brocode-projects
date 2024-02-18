@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myPara{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+
+.buttons{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(115, 215, 248);
+    cursor: pointer;
+    transition: background-color 0.25;
+}
+
+.buttons:hover{
+    background-color: rgb(42, 170, 187);
+    
+}
