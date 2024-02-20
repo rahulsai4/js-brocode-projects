@@ -13,11 +13,12 @@ myStartB.onclick = function(){
 
 let randomNum = Math.floor(Math.random() * 101);
 let num = -1;
+count = 0;
 
 myCheckB.onclick = function(){
     num = Number(myInput.value);
-    console.log(num);
-    console.log(randomNum);
+    count++;
+
     if(num > randomNum){
         myOutput.innerHTML = "lower";
     }
@@ -25,7 +26,7 @@ myCheckB.onclick = function(){
         myOutput.innerHTML = "higher";
     }
     else{
-        myOutput.innerHTML = "saath crore !!!";
+        myOutput.innerHTML = "correct!!! you took " + count + " attempts";
     }
 }
 
