@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(151, 175, 224);
+}
+
+div{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button{
+    border-radius:7px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.25;
+}
+.button:hover{
+    background-color: rgb(39, 39, 79);
+    color: white;
+}
