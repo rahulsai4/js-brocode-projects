@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>RANDOM PASSWORD GENERATOR</h1>
+    <div id="pwdBody">
+        <label>pwd length ?</label>
+        <div id="InputBox">
+            <input type="number" value="8" min="8" maxlength="5" size="5" id="lengthInput">
+            <button id="lengthB">ok</button>
+        </div>
+        <div id="checkBox">
+            <input type="checkbox" id="ucl">
+            <label for="ucl">include uppercase letters</label>
+            <br>
+            <input type="checkbox" id="lcl">
+            <label for="lcl">include lowercase letters</label>
+            <br>
+            <input type="checkbox" id="num">
+            <label for="num">include numbers</label>
+            <br>
+            <input type="checkbox" id="sym">
+            <label for="sym">include symbols</label>
+        </div>
+        <button id="generateB">generate password</button>
+        <div id="outputBox">
+            <div>password generated is</div>
+            <div>
+                <input type="text" id="generatedPwd">
+                <button id="copyB" class="buttons">copy</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

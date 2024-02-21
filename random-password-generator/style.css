@@ -1,0 +1,16 @@
+body{
+    background-color: #070F2B;
+    color: #dddceb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pwdBody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
