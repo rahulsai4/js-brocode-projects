@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color:aliceblue;
+    background-color: black;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inputBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.images{
+    max-height: 200px;
+    max-width: 200px;
+}
