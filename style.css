@@ -4,11 +4,20 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    background-color: #0c0c28;
+    color: #c2c1e6;
+}
+
+
+li{
+    margin: 5px;
+    padding: 5px;
 }
 
 a{
-    color: black;
+    color: #c2c1e6;
 }
 a:visited{
-    color: black;
+    color: #c2c1e6;
 }
