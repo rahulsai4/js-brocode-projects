@@ -14,5 +14,5 @@ body {
 #clock {
   font-weight: bolder;
   font-size: 3em;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(50px);
 }

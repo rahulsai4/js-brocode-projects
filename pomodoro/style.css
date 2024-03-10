@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #eae2f1;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    background-image: url("./images/pomo.jpeg");
+    background-position: center;
+
+    display: flex;
+}
+
+#pomodoro-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    backdrop-filter: blur(15px);
+    padding: 10px;
+}
+
+#time-input {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+#timer {
+    font-size: 3em;
+}
+
+#done {
+    font-size: 2em;
+}
