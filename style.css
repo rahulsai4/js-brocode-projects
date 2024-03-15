@@ -5,8 +5,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #0c0c28;
-    color: #c2c1e6;
+    background-color: hsl(240, 54%, 90%);
 }
 
 li {
@@ -15,8 +14,8 @@ li {
 }
 
 a {
-    color: #c2c1e6;
+    color: black;
 }
 a:visited {
-    color: #c2c1e6;
+    color: black;
 }
