@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.buttons {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    background-color: hsl(191, 72%, 85%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.buttons:hover {
+    background-color: hsl(191, 72%, 55%);
+}
+
+.buttons:active {
+    background-color: hsl(223, 100%, 100%);
+}
+
+.greenText {
+    color: rgb(73, 211, 73);
+}
+.redText {
+    color: rgb(239, 90, 90);
+}

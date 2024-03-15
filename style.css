@@ -1,23 +1,22 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     background-color: #0c0c28;
     color: #c2c1e6;
 }
 
-
-li{
+li {
     margin: 5px;
     padding: 5px;
 }
 
-a{
+a {
     color: #c2c1e6;
 }
-a:visited{
+a:visited {
     color: #c2c1e6;
 }
