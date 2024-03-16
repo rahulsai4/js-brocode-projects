@@ -19,5 +19,5 @@ img {
     width: 800;
     height: 500;
     flex-shrink: 0;
-    background-color: black;
+    background-color: hsl(0, 0%, 10%);
 }
