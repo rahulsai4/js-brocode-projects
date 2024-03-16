@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
