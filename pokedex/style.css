@@ -6,9 +6,18 @@ body {
     gap: 10px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #d30a40;
 }
 
 img {
     height: auto;
     width: 400px;
+}
+
+#screen {
+    width: 800;
+    height: 500;
+    flex-shrink: 0;
+    background-color: black;
 }
